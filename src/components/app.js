@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRoutes } from 'hookrouter';
 import Cookies from 'js-cookie';
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import SignUp from './auth/signUp';
 import LogIn from './auth/logIn';
 import ShutTheBox from './pages/game/ShutTheBox';
