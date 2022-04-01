@@ -15,7 +15,7 @@ export default function LogIn() {
             setError(true);
             setErrorMessage('Error: All fields must be filled in!');
         } else {
-            fetch('http://localhost:5000/user', {
+            fetch('https://ras-capstone-beckend.herokuapp.com/user', {
                 method: 'POST',
                 credentials: 'same-origin',
                 headers: {

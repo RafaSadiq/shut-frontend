@@ -21,7 +21,7 @@ export default function SignUp() {
             setError(true);
             setErrorMessage('Error: Passwords must match!')
         } else {
-            fetch('http://localhost:5000/user', {
+            fetch('https://ras-capstone-beckend.herokuapp.com/user', {
                 method: 'POST',
                 credentials: 'same-origin',
                 headers: {
@@ -43,7 +43,7 @@ export default function SignUp() {
                     setError(false);
                     setErrorMessage('');
                     Cookies.set('username', username);
-                    navigate('http://localhost:3000/LogIn');
+                    navigate('https://ras-capstone-beckend.herokuapp.com/LogIn');
                 }
             })
         }
