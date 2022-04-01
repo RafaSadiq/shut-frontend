@@ -1,0 +1,89 @@
+#Menu-screen{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#number-of-players {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 5%;
+    margin-top: 30px;
+}
+
+#start-button-row {
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
+    margin-top: 30px;
+    
+}
+
+#start-game {
+    width: 210px;
+    background-color: rgb(172, 245, 99);
+
+}
+
+.button-clicked {
+    box-shadow:none;
+    color: #000;
+}
+
+
+#player1-btn {
+    margin-right: 30px;
+    width: 210px;
+    background-color: yellow;
+}
+
+#player2-btn {
+    margin-left: 30px;
+    width: 210px;
+    background-color: yellow;
+}
+
+#how-to-play {
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
+    margin-top: 30px;
+}
+
+#instructions {
+    width: 210px;
+    background-color: rgb(172, 245, 99);
+    
+}
+
+.button-row {
+    display: none;
+}
+
+A {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+.dice-button1 {
+    width: 210px;
+    height: 50%;
+    border-radius: 50px;
+    margin: 20px;
+    outline: none;
+    color: yellow;
+    text-shadow: 2px 2px 5px rgb(150 150 150 / 56%);
+    font-size: 35px;
+    border: #0000008f 2px solid;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 12px #00000070;
+    padding: 15px;
+    background-color: rgb(172, 245, 99);
+}
+
+
+
